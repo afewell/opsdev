@@ -1,4 +1,10 @@
-variable "endpoint" {
+variable "terraform_tmc_version" {
+  type        = string
+  description = "TMC endpoint"
+  default = "<put your TMC endpoint url>"
+}
+
+variable "tmc_endpoint" {
   type        = string
   description = "TMC endpoint"
   default = "<put your TMC endpoint url>"
