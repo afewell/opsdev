@@ -1,12 +1,14 @@
 terraform {
   required_providers {
     tanzu-mission-control = {
-      source = "vmware/tanzu-mission-control"
-      version = "1.1.6"
+      source  = "vmware/tanzu-mission-control"
+      version = "${var.terraform_tmc_version}"
     }
   }
 }
 
+// Basic details needed to configure Tanzu Mission Control provider
 provider "tanzu-mission-control" {
-  # Configuration options
+  endpoint            = "${var.tmc_endpoint}"
+  vmw_cloud_api_token = "${secret.vmw_cloud_api_token}"
 }
