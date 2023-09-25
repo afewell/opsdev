@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.3](https://github.com/afewell/opsdev/compare/v1.1.2...v1.1.3) (2023-09-25)
+
+
+### Bug Fixes
+
+* triggering update to force new release, as I forgot to on last commit ([a480c45](https://github.com/afewell/opsdev/commit/a480c459651a974910c5e29b25c1854a4b66c1e2))
+
 ## [1.1.2](https://github.com/afewell/opsdev/compare/v1.1.1...v1.1.2) (2023-09-25)
 
 
