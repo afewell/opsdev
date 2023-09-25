@@ -13,7 +13,6 @@ variable "tmc_endpoint" {
 variable "vmw_cloud_api_token" {
   type        = string
   description = "TMC API Token"
-  default     = '${secret.afewell_vmw_cloud_api_token}'
   sensitive   = true
 }
 
@@ -26,7 +25,6 @@ variable "azure_subscription_id" {
   type        = string
   description = "TMC Credential Name for Azure Account"
   sensitive   = true
-  default     = '${secret.afewell_azure_subscription_id}'
 }
 
 variable "azure_resource_group" {
