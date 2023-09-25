@@ -91,7 +91,7 @@ variable "nodepool_1_node_disk_size_gb" {
   default     = 100
 }
 
-variable "var.nodepool_1_enable_auto_scaling" {
+variable "nodepool_1_enable_auto_scaling" {
   type        = bool
   description = "Enable auto-scaling for this cluster (true or false)?"
   default     = true
