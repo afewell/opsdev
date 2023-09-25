@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.1](https://github.com/afewell/opsdev/compare/v1.1.0...v1.1.1) (2023-09-25)
+
+
+### Bug Fixes
+
+* changing folder name in attempt to get assembler to recognize directory ([fc82634](https://github.com/afewell/opsdev/commit/fc82634e4db0409a5e45521fd36901ac98089ee9))
+
 # [1.1.0](https://github.com/afewell/opsdev/compare/v1.0.0...v1.1.0) (2023-09-25)
 
 
