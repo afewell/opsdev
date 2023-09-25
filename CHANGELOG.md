@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.1.0](https://github.com/afewell/opsdev/compare/v1.0.0...v1.1.0) (2023-09-25)
+
+
+### Features
+
+* adding aks cluster resource for tmc terraform configuration ([92552fd](https://github.com/afewell/opsdev/commit/92552fd780f754c21b0177cc5720e09fbcfc3f7c))
+
 # 1.0.0 (2023-09-24)
 
 
