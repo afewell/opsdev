@@ -8,44 +8,49 @@ variable "terraform_tmc_version" {
 variable "tmc_endpoint" {
   type        = string
   description = "TMC endpoint URL"
+  default: "tanzutmm.tmc.cloud.vmware.com"
 }
 
-variable "vmw_cloud_api_token" {
+variable "vmw_cloud_token_secret_placeholder" {
   type        = string
-  description = "TMC API Token"
-  sensitive   = true
+  description = "Reminder to create an Aria assembler secret for vmw_cloud_token - this var is an unused placeholder"
+  default     = "unused_placeholder"
 }
 
 variable "azure_credential_name" {
   type        = string
   description = "TMC Credential Name for Azure Account"
+  default     = "afewell-azure"
 }
 
-variable "azure_subscription_id" {
+variable "azure_subscription_id_secret_placeholder" {
   type        = string
-  description = "TMC Credential Name for Azure Account"
-  sensitive   = true
+  description = "Reminder to create an Aria assembler secret for azure_subscription_id - this var is an unused placeholder"
+  default     = "unused_placeholder"
 }
 
 variable "azure_resource_group" {
   type        = string
   description = "Azure Resource Group"
+  default     = "genaissance"
 }
 
 variable "cluster_name" {
   type        = string
   description = "Enter a name for the cluster that will be created"
+  default     = "my-new-aks-cluster"
 }
 
 variable "cluster_group_name" {
   type        = string
   description = "Enter the name for the cluster group the created cluster will be associated to."
-  default     = "default"
+  default     = "genaissance"
 }
 
 variable "cluster_description" {
   type        = string
   description = "Enter a description for this cluster"
+  default     = "Enter a description for this cluster"
 }
 
 variable "cluster_labels" {
@@ -60,6 +65,7 @@ variable "cluster_labels" {
 variable "cluster_location" {
   type        = string
   description = "The Azure Region where the cluster will be deployed"
+  default     = "westus2"
 }
 
 variable "kubernetes_version" {
@@ -83,12 +89,13 @@ variable "nodepool_1_count" {
 variable "nodepool_1_vm_size" {
   type        = string
   description = "VM size for nodepool 1 nodes"
+  default     = "Standard_D4_v5"
 }
 
 variable "nodepool_1_node_disk_size_gb" {
   type        = number
   description = "OS Disk Size in GB to be used to specify the disk size for every machine in the nodepool. If you specify 0, it will apply the default osDisk size according to the vmSize specified"
-  default     = 100
+  default     = 150
 }
 
 variable "nodepool_1_enable_auto_scaling" {
