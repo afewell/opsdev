@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.5](https://github.com/afewell/opsdev/compare/v1.1.4...v1.1.5) (2023-09-26)
+
+
+### Bug Fixes
+
+* adding additional default values to simplify common deployments ([55e7c2c](https://github.com/afewell/opsdev/commit/55e7c2c95a85895050248bd8d5d0e72dad1bc3a5))
+
 ## [1.1.4](https://github.com/afewell/opsdev/compare/v1.1.3...v1.1.4) (2023-09-25)
 
 
