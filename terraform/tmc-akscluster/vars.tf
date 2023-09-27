@@ -11,9 +11,9 @@ variable "tmc_endpoint" {
   default = "tanzutmm.tmc.cloud.vmware.com"
 }
 
-variable "vmw_cloud_token_secret_placeholder" {
+variable "vmw_cloud_api_token_secret_placeholder" {
   type        = string
-  description = "Reminder to create an Aria assembler secret for vmw_cloud_token - this var is an unused placeholder"
+  description = "Reminder to create an Aria assembler secret for vmw_cloud_api_token - this var is an unused placeholder"
   default     = "unused_placeholder"
 }
 
