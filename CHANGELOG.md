@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.6](https://github.com/afewell/opsdev/compare/v1.1.5...v1.1.6) (2023-09-27)
+
+
+### Bug Fixes
+
+* typo fix, replacing erroneous colon with equals sign on line 11 to match terraform formatting requirements ([43ac4ba](https://github.com/afewell/opsdev/commit/43ac4badf80f6708897d389eae8ac29236cd525e))
+
 ## [1.1.5](https://github.com/afewell/opsdev/compare/v1.1.4...v1.1.5) (2023-09-26)
 
 
