@@ -11,10 +11,9 @@ variable "tmc_endpoint" {
   default = "tanzutmm.tmc.cloud.vmware.com"
 }
 
-variable "vmw_cloud_api_token_secret_placeholder" {
+variable "vmw_cloud_api_token" {
   type        = string
-  description = "Reminder to create an Aria assembler secret for vmw_cloud_api_token - this var is an unused placeholder"
-  default     = "unused_placeholder"
+  description = "VMware Cloud API Token"
 }
 
 variable "azure_credential_name" {
@@ -23,10 +22,9 @@ variable "azure_credential_name" {
   default     = "afewell-azure"
 }
 
-variable "azure_subscription_id_secret_placeholder" {
+variable "azure_subscription_id" {
   type        = string
-  description = "Reminder to create an Aria assembler secret for azure_subscription_id - this var is an unused placeholder"
-  default     = "unused_placeholder"
+  description = "Azure Subscription ID"
 }
 
 variable "azure_resource_group" {
