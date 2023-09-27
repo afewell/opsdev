@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.7](https://github.com/afewell/opsdev/compare/v1.1.6...v1.1.7) (2023-09-27)
+
+
+### Bug Fixes
+
+* updating name of variable to vmw_cloud_api_token... to match desired naming convention ([6dd9120](https://github.com/afewell/opsdev/commit/6dd91203a3e2a1e592197419044b79e1301194aa))
+
 ## [1.1.6](https://github.com/afewell/opsdev/compare/v1.1.5...v1.1.6) (2023-09-27)
 
 
