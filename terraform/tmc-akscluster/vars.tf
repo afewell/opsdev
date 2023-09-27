@@ -8,7 +8,7 @@ variable "terraform_tmc_version" {
 variable "tmc_endpoint" {
   type        = string
   description = "TMC endpoint URL"
-  default: "tanzutmm.tmc.cloud.vmware.com"
+  default = "tanzutmm.tmc.cloud.vmware.com"
 }
 
 variable "vmw_cloud_token_secret_placeholder" {
