@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.8](https://github.com/afewell/opsdev/compare/v1.1.7...v1.1.8) (2023-09-27)
+
+
+### Bug Fixes
+
+* updating secret vars to remove placeholder reference as per documentation we should reference the secret in the blueprint front matter and inject into a var defined within terraform ([9c72f11](https://github.com/afewell/opsdev/commit/9c72f113e2656a774313ac0d4e6757c64c88d375))
+
 ## [1.1.7](https://github.com/afewell/opsdev/compare/v1.1.6...v1.1.7) (2023-09-27)
 
 
