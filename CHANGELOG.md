@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.12](https://github.com/afewell/opsdev/compare/v1.1.11...v1.1.12) (2023-09-28)
+
+
+### Bug Fixes
+
+* moving cluster_group field to correct location in schema to resolve [#4](https://github.com/afewell/opsdev/issues/4) ([fdb4f6c](https://github.com/afewell/opsdev/commit/fdb4f6c2a2c90494fc771697a92bd262bae116bb))
+
 ## [1.1.11](https://github.com/afewell/opsdev/compare/v1.1.10...v1.1.11) (2023-09-28)
 
 
