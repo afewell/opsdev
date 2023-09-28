@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.9](https://github.com/afewell/opsdev/compare/v1.1.8...v1.1.9) (2023-09-28)
+
+
+### Bug Fixes
+
+* Adding quotes to string variable assignments to fix type recognition error and adding sensitive property to secret vars to resolve [#1](https://github.com/afewell/opsdev/issues/1) ([1b38872](https://github.com/afewell/opsdev/commit/1b388729cf5145b5d8ba58394e931b7ad3f2421e))
+
 ## [1.1.8](https://github.com/afewell/opsdev/compare/v1.1.7...v1.1.8) (2023-09-27)
 
 
