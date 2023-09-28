@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.11](https://github.com/afewell/opsdev/compare/v1.1.10...v1.1.11) (2023-09-28)
+
+
+### Bug Fixes
+
+* adding missing cluster_dns_prefix var to resolve [#3](https://github.com/afewell/opsdev/issues/3) ([b321cf1](https://github.com/afewell/opsdev/commit/b321cf141b1b546ae67ee454d049083005f37a5a))
+
 ## [1.1.10](https://github.com/afewell/opsdev/compare/v1.1.9...v1.1.10) (2023-09-28)
 
 
