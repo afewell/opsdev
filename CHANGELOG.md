@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.10](https://github.com/afewell/opsdev/compare/v1.1.9...v1.1.10) (2023-09-28)
+
+
+### Bug Fixes
+
+* updating variables and formatting to resolve [#2](https://github.com/afewell/opsdev/issues/2) ([835bea4](https://github.com/afewell/opsdev/commit/835bea441e7837e2f96dfd8658d28935aac2342e))
+
 ## [1.1.9](https://github.com/afewell/opsdev/compare/v1.1.8...v1.1.9) (2023-09-28)
 
 
