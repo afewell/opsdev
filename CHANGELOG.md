@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.14](https://github.com/afewell/opsdev/compare/v1.1.13...v1.1.14) (2023-09-28)
+
+
+### Bug Fixes
+
+* changing default vm size and max node value to comply with regional quotas to resolve [#5](https://github.com/afewell/opsdev/issues/5) ([52dfd07](https://github.com/afewell/opsdev/commit/52dfd070af7c8ca0c7d27bfcd0b6429a65118bc2))
+
 ## [1.1.13](https://github.com/afewell/opsdev/compare/v1.1.12...v1.1.13) (2023-09-28)
 
 
