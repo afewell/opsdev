@@ -13,17 +13,17 @@ provider "tanzu-mission-control" {
   vmw_cloud_api_token = var.vmw_cloud_api_token
 }
 
-resource "tanzu-mission-control_akscluster" "demo_AKS_cluster" {
+resource "tanzu-mission-control_akscluster" "aks_cluster" {
   credential_name = var.azure_credential_name
   subscription_id = var.azure_subscription_id
   resource_group  = var.azure_resource_group
   name            = var.cluster_name
-  cluster_group   = var.cluster_group_name
   meta {
     description = var.cluster_description
     labels      = var.cluster_labels
   }
   spec {
+    cluster_group   = var.cluster_group_name
     config {
       location           = var.cluster_location
       kubernetes_version = var.kubernetes_version
