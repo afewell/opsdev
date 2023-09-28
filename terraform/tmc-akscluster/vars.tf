@@ -68,6 +68,12 @@ variable "cluster_location" {
   default     = "westus2"
 }
 
+variable "cluster_dns_prefix" {
+  type        = string
+  description = "DNS Prefix for cluster"
+  default     = "westus2"
+}
+
 variable "kubernetes_version" {
   type        = string
   description = "Kubernetes Version for this cluster"
