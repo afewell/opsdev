@@ -95,7 +95,7 @@ variable "nodepool_1_count" {
 variable "nodepool_1_vm_size" {
   type        = string
   description = "VM size for nodepool 1 nodes"
-  default     = "Standard_D4_v5"
+  default     = "Standard_A2m_v2"
 }
 
 variable "nodepool_1_node_disk_size_gb" {
@@ -113,7 +113,7 @@ variable "nodepool_1_enable_auto_scaling" {
 variable "nodepool_1_max_node_count" {
   type        = number
   description = "Maximum number of nodes for this cluster"
-  default     = 6
+  default     = 5
 }
 
 variable "nodepool_1_min_node_count" {
