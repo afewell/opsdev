@@ -14,6 +14,7 @@ variable "tmc_endpoint" {
 variable "vmw_cloud_api_token" {
   type        = string
   description = "VMware Cloud API Token"
+  sensitive   = true
 }
 
 variable "azure_credential_name" {
@@ -25,6 +26,7 @@ variable "azure_credential_name" {
 variable "azure_subscription_id" {
   type        = string
   description = "Azure Subscription ID"
+  sensitive   = true
 }
 
 variable "azure_resource_group" {
